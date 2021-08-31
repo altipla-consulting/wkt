@@ -7,7 +7,8 @@
   "scripts": {
     "lint": "tsc --noEmit && eslint --ext .ts src",
     "fix": "eslint --fix --ext .ts src",
-    "prepublishOnly": "tsc"
+    "prepublishOnly": "tsc",
+    "test": ""
   },
   "repository": {
     "type": "git",
