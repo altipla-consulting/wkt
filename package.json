@@ -1,0 +1,33 @@
+{
+  "name": "@altipla/wkt",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Common Well Known Types inside our company for Typescript projects.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altipla-consulting/wkt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/altipla-consulting/wkt/issues"
+  },
+  "homepage": "https://github.com/altipla-consulting/wkt#readme",
+  "devDependencies": {
+    "@protobuf-ts/plugin": "^2.0.2",
+    "@protobuf-ts/runtime": "*",
+    "google-proto-files": "^2.4.0",
+    "typescript": "^4.4.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@protobuf-ts/runtime": "^2.0.2"
+  }
+}
