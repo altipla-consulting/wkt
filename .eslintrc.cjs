@@ -1,7 +1,4 @@
 
 module.exports = {
-  extends: '@altipla/eslint-config-vue',
-  parserOptions: {
-    parser: '@typescript-eslint/parser',
-  },
+  extends: '@altipla/eslint-config-ts',
 }
